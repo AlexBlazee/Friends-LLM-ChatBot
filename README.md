@@ -3,7 +3,6 @@
 QA Chatbot Package with Specific Persona Models using Base HF models, LoRA fine-tuned models and RAG LLM Models.
 
 - [Chatbot Personas For QA Using Fine-Tuned LLMs](#chatbot-personas-for-qa-using-fine-tuned-llms)
-  - [Installation and Run Instructions](#installation-and-run-instructions)
   - [Abstract](#abstract)
   - [Dataset Description](#dataset-description)
   - [Training Methodology](#training-methodology)
@@ -14,17 +13,6 @@ QA Chatbot Package with Specific Persona Models using Base HF models, LoRA fine-
 
 
 ***
-
-## Installation and Run Instructions
-
-**All helper functions and run steps can be found in the wiki pages.**
-
-| Helper | Page |
-| ------ | ------ |
-| Setup Environment and Integrations | [Wiki](Friends-LLM-ChatBot/wiki/Setup-Repository) |
-
-***
-
 ## Abstract
 
 The aim of this project is to create several Question Answering Chatbot personas using fine-tuned LLM models. As part of the model fine-tuning, PEFT techniques such as QLoRA and AdaLoRA will be devised for efficient and quicker weight updates. The performance of the persona LLM will be measured using MCQ as well as Free Response style evaluation, and benchmarked against the base LLM model.
